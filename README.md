@@ -36,7 +36,7 @@ The package integrates with other components in the manipulator workspace:
 1. Clone the repository into your workspace:
    ```bash
    cd ~/ws_manipulator/src
-   git clone https://github.com/username/manipulator_control_strategies.git
+   git clone https://github.com/luiscoelho23/manipulator_control_strategies.git
    ```
 
 2. Build the workspace:

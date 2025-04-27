@@ -3,9 +3,9 @@
 <package format="3">
   <name>manipulator_control_strategies</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <description>Control strategies for the manipulator</description>
   <maintainer email="luiscoelho321@hotmail.com">luisc</maintainer>
-  <license>TODO: License declaration</license>
+  <license>Apache-2.0</license>
 
   <depend>rclpy</depend>
   <depend>manipulator</depend>
