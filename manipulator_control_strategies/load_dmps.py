@@ -369,7 +369,8 @@ def dmp_load():
     # First pass to generate trajectory
     phase.value = 0.0
     policy.reset([8.683360515029568205e+01,1.148087923504335635e+02,2.452527404357190832e+01])
-
+    out1 = str(policy.value[0]) + ";" + str(policy.value[1]) + ";" + str(policy.value[2]) + "\n"
+    main_ang_traj.write(out1)
     if debug_mode:
         logger.info("Starting first pass trajectory generation")
         
